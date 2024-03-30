@@ -1,0 +1,47 @@
+@import "base.css";
+
+.game {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color:#E6E6FA;
+    height: 500px;
+    width: 100%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    margin: 15px;
+}
+
+.list {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;    
+}
+
+select {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: var(--information-bg-btn);
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--modal-bg-color);
+    margin-bottom: 1px;
+    border-radius: 8px;
+}

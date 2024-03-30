@@ -1,0 +1,156 @@
+:root {
+    --page-bg-color: #F0F8FF;
+    --header-bg-color: #E6E6FA;
+    --error-bg-color: #FF4500;
+    --warning-bg-color: #fff000;
+    --information-bg-color: #0000CD;
+    --success-bg-color: #228B22;
+    --information-bg-btn: #6699CC;    
+    --modal-bg-color: #FAF9F6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--page-bg-color);
+}
+
+.menu {  
+    min-width: 150px;    
+    background-color: var(--header-bg-color);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;   
+}
+
+.menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    display: block;
+}
+
+.container {
+    width: 800px;    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 15px;    
+}
+
+.content {
+    display: flex;    
+}
+
+.header {
+    background-color: var(--header-bg-color);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #E6E6FA;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.footer h4 {
+    text-align: center;
+}
+
+.title {
+    font-size: 38px;
+    font-style: italic;
+}
+
+.title i {
+    color: #6699CC;
+}
+
+.alert {
+    padding: 20px;    
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.alert-error {
+    background-color: var(--error-bg-color);
+}
+
+.alert-information {
+    background-color: var(--information-bg-color);
+}
+
+.alert-success {
+    background-color: var(--success-bg-color);
+}
+
+.close {
+    margin-left: 15px;
+    color: #000;
+    font-weight: bold;
+    float: right;
+    font-size: 28px;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    
+}
+
+.header .avatar {
+    float: right;    
+}
+
+.button-lg {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button-md {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid;    
+    margin-top: 10px;    
+    width: 200px;
+    cursor: pointer;
+}
+
+.button-success {
+    background-color: var(--success-bg-color);
+    border-color: var(--success-bg-color);
+}
+
+.button-information {
+    background-color: var(--information-bg-btn);
+    border-color: var(--information-bg-btn);
+}
+
+.button-error {
+    background-color: var(--error-bg-color);
+    border-color: var(--error-bg-color);
+}
+
+.button-warning {
+    background-color: var(--warning-bg-color);
+    border-color: var(--warning-bg-color);
+}

@@ -1,0 +1,122 @@
+@import "base.css";
+
+.lista-mensagens {
+    display: flex;    
+    height: 500px;
+    width: 100%;
+}
+
+.lista {    
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color:#E6E6FA;
+    height: 500px;
+    width: 50%;
+    margin-left: 15px;        
+}
+
+.mensagens {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color:#E6E6FA;
+    width: 100%;
+    margin-left: 15px;
+    height: 500px;           
+}
+
+.lista-usuario {
+    padding: 4px;
+    margin: 2px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    overflow-y: auto;
+}
+
+.lista-usuario:hover {
+    background-color: #4FFFB0;
+}
+
+.lista-selected {
+    background-color: #4FFFB0;
+    
+}
+
+.foto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nome {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.chat {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form textarea {
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    resize: none;
+    border: none;
+}
+
+form button {
+    background-color: #6699CC;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;     
+}
+
+.form-chat {
+    display: none;
+}
+
+.banner-message {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 5px;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.banner-sender {
+    flex-direction: row;
+}
+
+.banner-receiver {
+    flex-direction: row-reverse;
+}
+
+.chat-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
